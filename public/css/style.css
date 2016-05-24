@@ -58,9 +58,12 @@
 }
 .main_words {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-  font-weight: 100;
+  font: 300 70px/70px 'Philosopher', sans-serif;
+}
+.sub_main {
+  font: 1.5em/2.5em 'Muli', sans-serif;
+  color: #fff;
+  letter-spacing: .05em;
 }
 .left-btn {
   text-align: right;
