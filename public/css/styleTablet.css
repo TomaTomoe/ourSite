@@ -1,0 +1,28 @@
+/* COMMON STYLE */
+/* TOP-MENU */
+/* CAROUSEL */
+.carousel-slide {
+  height: 500px;
+}
+#slide-1 {
+  background: url('../img/web-site-create_tablet.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#slide-2 {
+  background: url('../img/web-site-develop_tablet.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#slide-3 {
+  background: url('../img/web-site-make_tablet.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#slogan {
+  top: 250px;
+}
+.main_words {
+  font-size: 28px;
+  font-weight: 200;
+}

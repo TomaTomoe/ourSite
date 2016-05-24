@@ -1,0 +1,54 @@
+/* COMMON STYLE */
+/* TOP-MENU */
+.navbar-nav > li > a {
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.navbar-toggle {
+  margin-top: 34px;
+  margin-bottom: 34px;
+  border: 0;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle:hover .icon-bar {
+  background-color: #7CBFBF;
+}
+.navbar-inverse .navbar-collapse.in,
+.navbar-inverse .navbar-collapse.collapsing {
+  border-color: #16272c;
+  background-color: #16272C;
+}
+.navbar-inverse.overscroll .navbar-collapse.in,
+.navbar-inverse.overscroll .navbar-collapse.collapsing {
+  background-color: rgba(22, 39, 44, 0.8);
+  border-color: rgba(22, 39, 44, 0.85);
+}
+/* CAROUSEL */
+.carousel-slide {
+  height: 400px;
+}
+#slide-1 {
+  background: url('../img/web-site-create_mobile.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#slide-2 {
+  background: url('../img/web-site-develop_mobile.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#slide-3 {
+  background: url('../img/web-site-make_mobile.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#slogan {
+  top: 200px;
+}
+.main_words {
+  font-size: 28px;
+  font-weight: 200;
+}

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Bubbler+One|Raleway:400,500,300,200,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- CSS FILES -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" media="all and (min-width: 992px)" href="css/styleDesktop.css">
+    <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 991px)" href="css/styleTablet.css">
+    <link rel="stylesheet" media="all and (max-width: 767px)" href="css/styleMobile.css">
+    <link href="css/ion.rangeSlider.css" rel="stylesheet">
+    <link href="css/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- centered container -->
+    <div>
+      <!-- HEADER -->
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
+        <div class="container-fluid on-big-screen">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Our team</a></li>
+              <li><a href="#">How we work</a></li>
+              <li><a href="#">Prices</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- BANNER -->
+      <div id="myCarousel" class="carousel slide" data-interval="3500">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="carousel-slide" id="slide-1"></div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-slide" id="slide-2"></div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-slide" id="slide-3"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Слоган -->
+      <section class="container-fluid on-big-screen" id="slogan">
+        <div class="row">
+          <h1 class="main_words">Our main words - something very inspired and bright</h1>
+          <div class="col-xs-6 left-btn">
+            <button type="button" class="btn btn-lg btn-default pseudo-act" data-toggle="modal" data-target="#myModal">Get in touch</button>
+          </div>
+          <div class="col-xs-6 right-btn">
+            <button type="button" class="btn btn-lg btn-default">Continue view</button>
+          </div>
+        </div>
+      </section>
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="btn-group">
+                <a data-toggle="tab" href="#call" type="button" class="btn btn-success">Order call</a>
+                <a data-toggle="tab" href="#form" type="button" class="btn btn-success">Contact form</a>
+                <a data-toggle="tab" href="#contacts" type="button" class="btn btn-success">Our contacts</a>
+              </div>
+              <div class="tab-content">
+                <div id="call" class="tab-pane fade in active">
+                  <h3>Order call</h3>
+                  <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="phone">Phone:</label>
+                      <div class="col-sm-10">
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter yourphone number" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="name">Name:</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="days">Days:</label>
+                      <div class="col-sm-10">
+                        <input type="text" id="slider_days" name="days" value="" />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="time">Time:</label>
+                      <div class="col-sm-10">
+                        <input type="text" id="slider_time" name="time" value="" />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="comment">Comment:</label>
+                      <div class="col-sm-10">
+                        <textarea type="text" class="form-control" id="comment" placeholder="Some additional info?" rows="3"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div id="form" class="tab-pane fade">
+                  <h3>Contact form</h3>
+                  <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="name1">Name:</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name1" placeholder="Enter your name" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">Email:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter yourphone email" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="question">Comment:</label>
+                      <div class="col-sm-10">
+                        <textarea type="text" class="form-control" id="question" placeholder="Enter your question" rows="5"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div id="contacts" class="tab-pane fade">
+                  <h3>Our contacts</h3>
+                  <p>You can contact with us by yourself:</p>
+                  <ul>
+                    <li>Email: </li>
+                    <li>Phone: </li>
+                    <li>Skype: </li>
+                    <li>Viber: </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- OUR TEAM -->
+      <section  class="container-fluid our_team">
+        <div class="on-big-screen">
+          <h2>Our team</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 team-member">
+              <img src="img/developer-1.jpg" class="img-circle developers" alt="developer-1">
+              <h4>one two</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 break team-member">
+              <img src="img/developer-2.jpg" class="img-circle developers" alt="developer-2">
+              <h4>two one</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 team-member">
+              <img src="img/developer-3.jpg" class="img-circle developers" alt="developer-3">
+              <h4>two three</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs break">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 team-member">
+              <img src="img/developer-4.jpg" class="img-circle developers" alt="developer-4">
+              <h4>three two</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HOW WE WORK -->
+      <section  class="container-fluid how-work">
+        <div class="on-big-screen">
+          <div> <!-- conteiner -->
+            <div class="first"></div> <!-- top row -->
+            <div> <!-- left blocks -->
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div> <!-- central gif -->
+              <img src="img/conceptArt.gif">
+            </div>
+            <div> <!-- right blocks -->
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div></div> <!-- bottom row -->
+          </div>
+        </div>
+      </section>
+      <!-- PRICE -->
+      <section  class="container-fluid">
+        <div class="on-big-screen">
+          <h2>Prices</h2>
+          <div class="row row-big-margin">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <h4>one two</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <h4>two one</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <h4>two three</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT US -->
+      <section class="container-fluid footer">
+        <div class="on-big-screen">
+          <h2>Our contacts</h2>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-5 col-xs-12">
+              <h3>Our contacts</h3>
+              <ul>
+                <li>Email: </li>
+                <li>Phone: </li>
+                <li>Skype: </li>
+                <li>Viber: </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-7 col-xs-12">
+              <h3>Contact form</h3>
+              <form class="form-horizontal" role="form">
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="name1">Name:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name1" placeholder="Enter your name" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">Email:</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter yourphone email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="question">Comment:</label>
+                  <div class="col-sm-10">
+                    <textarea type="text" class="form-control" id="question" placeholder="Enter your question" rows="5"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- JS FILES -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/overScroll.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          // Activate Carousel
+          $("#myCarousel").carousel("cycle");
+
+      });
+      $("#slider_days").ionRangeSlider({
+          type: "double",
+          grid: false,
+          from: 0,
+          to: 4,
+          values: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+      });
+      $("#slider_time").ionRangeSlider({
+          type: "double",
+          grid: true,
+          from: 2,
+          to: 10,
+          values: ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00","15:00","16:00","17:00","18:00","19:00","20:00","21:00","22:00"]
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+/* COMMON STYLE */
+.on-big-screen {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.break {
+  clear: both;
+}
+/* CAROUSEL */
+.carousel-slide {
+  height: 650px;
+}
+#slide-1 {
+  background: url('../img/web-site-create.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#slide-2 {
+  background: url('../img/web-site-develop.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#slide-3 {
+  background: url('../img/web-site-make.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#slogan {
+  top:320px;
+}
+.main_words {
+  font-size: 40px;
+  font-weight: 100;
+}
+/* OUR TEAM */
+/*.our_team .row {
+  background-image: url('../img/bg-dev.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}*/
+.team-member p {
+  width: 300px;
+  margin: auto;
+}
+.our_team .row {
+  margin: auto;
+  width: 1100px;
+  height: 900px;
+  background:
+    linear-gradient(45deg, transparent 0%, transparent 49.92%, #bddbdb 49.92%, #bddbdb 50.08%, transparent 50.08%, transparent 100%),
+    linear-gradient(-45deg, transparent 0%, transparent 49.92%, #bddbdb 49.92%, #bddbdb 50.08%, transparent 50.08%, transparent 100%);
+  background-position: center;
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+}
+/* HOW WE WORK */
+{
+  width: 400px;
+  margin: auto;
+  height: 200px;
+}
