@@ -30,6 +30,17 @@
   top:280px;
 }
 /* OUR TEAM */
+.our_team,
+.prices {
+  padding: 50px 0 70px 0;
+}
+.our_team h2,
+.prices h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
 .team-member p {
   width: 300px;
   margin: auto;
@@ -46,8 +57,3 @@
   background-repeat: no-repeat;
 }
 /* HOW WE WORK */
-{
-  width: 400px;
-  margin: auto;
-  height: 200px;
-}
