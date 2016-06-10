@@ -182,6 +182,12 @@ body {
 .modal-body .tab-content {
   color: #bbb;
 }
+.modal-body a.btn.btn-success {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(92,132,13);
+  box-shadow: 0 2px 3px 0px rgb(92,132,13);
+}
 .tab-pane label {
   font-weight: 100;
   font-size: 16px;
