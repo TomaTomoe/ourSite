@@ -32,11 +32,12 @@
     }
 
 .irs-bar {
-    height: 10px; top: 33px;
-    border-top: 1px solid #428bca;
-    border-bottom: 1px solid #428bca;
-    background: #428bca;
-    background: linear-gradient(to top, rgba(66,139,202,1) 0%,rgba(127,195,232,1) 100%); /* W3C */
+    height: 10px;
+    top: 33px;
+    border-top: 1px solid rgb(145, 206, 23);
+    border-bottom: 1px solid rgb(92, 132, 13);
+    background: rgb(123, 183, 2);
+    background: linear-gradient(to top, rgba(92,132,13,1) 0%,rgba(145,206,23,1) 100%); /* W3C */
 }
     .irs-bar-edge {
         height: 10px; top: 33px;
@@ -77,12 +78,13 @@
 }
 
 .irs-min, .irs-max {
-    color: #333;
-    font-size: 12px; line-height: 1.333;
+    color: #bbb;
+    font-size: 12px;
+    line-height: 1.333;
     text-shadow: none;
     top: 0;
     padding: 1px 5px;
-    background: rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.1);
     border-radius: 3px;
     -moz-border-radius: 3px;
 }
@@ -93,10 +95,11 @@
 
 .irs-from, .irs-to, .irs-single {
     color: #fff;
-    font-size: 11px; line-height: 1.333;
+    font-size: 11px;
+    line-height: 1.333;
     text-shadow: none;
     padding: 1px 5px;
-    background: #428bca;
+    background: #6c9b10;
     border-radius: 3px;
     -moz-border-radius: 3px;
 }
