@@ -200,9 +200,9 @@ a.btn.btn-success:after {
 a.btn.btn-success:hover:after {
   content: "";
   width: 100%;
-  height: 10px;
-  bottom: -10px;
-  transition: all ease .3s;
+  height: 15px;
+  bottom: -15px;
+  transition: all ease .2s;
 }
 .btn-group .btn + .btn,
 .btn-group .btn + .btn-group,
