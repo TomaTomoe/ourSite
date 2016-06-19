@@ -8,7 +8,7 @@ body {
 /* TOP-MENU */
 .navbar {
   border-radius: 0;
-  margin-bottom: 0;
+  
 }
 .navbar-inverse {
   background-color: #16272c;
@@ -33,14 +33,14 @@ body {
   border-color: rgba(22, 39, 44, 0.85);
 }
 .navbar, .navbar-brand {
-  height: 100px;
+
 }
 .navbar-nav > li > a, .navbar-brand {
   line-height: 70px;
   text-transform: uppercase;
 }
 .navbar-fixed-top {
-  border-width: 0;
+  
 }
 /* CAROUSEL */
 .carousel {
@@ -222,7 +222,8 @@ a.btn.btn-success:hover:after {
     linear-gradient(135deg, #bddbdb 2px, #C4DEDE 2px, #C4DEDE 3px, transparent 3px, transparent 8px, #C4DEDE 8px, #C4DEDE 9px, transparent 9px),
     linear-gradient(225deg, #bddbdb 2px, #C4DEDE 2px, #C4DEDE 3px, transparent 3px, transparent 8px, #C4DEDE 8px, #C4DEDE 9px, transparent 9px)0 8px;*/
   background-color:#bddbdb;
-  background-size: 8px 16px
+  background-size: 8px 16px;
+  height: 500px;
 }
 /* OUR TEAM */
 .developers {
@@ -243,4 +244,18 @@ a.btn.btn-success:hover:after {
     linear-gradient(#1A1D25 35%, #181D23 35%, #181D23 70%, transparent 50%, transparent 75%, #202531 75%, #202531);
   background-color: #0D0E10;
   background-size: 4px 4px;
+  color: #bbb;
+}
+.footer label {
+    font-size: 16px;
+    font-weight: 100;
+}
+.footer .form-control {
+	color: #F1F1F1;
+	background-color: #3D434C;
+	border: 1px solid #555663;
+}
+.footer .form-control:focus {
+	box-shadow: none;
+    border-color: #ddd;
 }
