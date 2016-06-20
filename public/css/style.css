@@ -246,6 +246,14 @@ a.btn.btn-success:hover:after {
 .team-member {
   text-align: center;
 }
+/* PRICES */
+.priceCard {
+    width: 250px;
+    margin: auto;
+	background: #3C5777;
+	padding: 15px;
+	color: #fff;
+}
 /* FOOTER */
 .footer {
   background:
