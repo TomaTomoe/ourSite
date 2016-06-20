@@ -225,6 +225,19 @@ a.btn.btn-success:hover:after {
   background-size: 8px 16px;
   height: 500px;
 }
+.modal-content label {
+    font-size: 16px;
+    font-weight: 100;
+}
+.modal-content .form-control {
+	color: #F1F1F1;
+	background-color: #3D434C;
+	border: 1px solid #555663;
+}
+.modal-content .form-control:focus {
+	box-shadow: none;
+    border-color: #ddd;
+}
 /* OUR TEAM */
 .developers {
   height: 150px;
