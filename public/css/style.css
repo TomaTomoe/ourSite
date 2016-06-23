@@ -253,6 +253,18 @@ a.btn.btn-success:hover:after {
 	background: #3C5777;
 	padding: 15px;
 	color: #fff;
+	border-radius: 5px;
+}
+.firstCard {
+	margin-right: 0;
+}
+.lastCard {
+	margin-left: 0;
+}
+.priceCard h4 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    text-align: center;
 }
 /* FOOTER */
 .footer {
