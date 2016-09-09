@@ -140,7 +140,7 @@ body {
 }
 /* MODAL */
 .modal-content {
-  background-color: #16272c;
+  background-color: #f5f5f5;
   -webkit-box-shadow: 0 3px 10px 2px rgba(189, 219, 219, .5);
   box-shadow: 0px 3px 10px 2px rgba(189, 219, 219, .5);
 }
@@ -156,7 +156,7 @@ body {
   text-transform: uppercase;
   font-size: 24px;
   border-bottom: none;
-  color: #b5b5b5;
+  color: #777;
   font-weight: 100;
 }
 .close {
@@ -180,13 +180,14 @@ body {
   margin-bottom: 30px;
 }
 .modal-body .tab-content {
-  color: #bbb;
+  color: #444;
 }
 .modal-body a.btn.btn-success {
   background: transparent;
   border: none;
   position: relative;
   text-transform: uppercase;
+  color: #333;
 }
 a.btn.btn-success:after {
   content: "";
@@ -195,7 +196,7 @@ a.btn.btn-success:after {
   position: absolute;
   left: 0;
   bottom: -5px;
-  background: linear-gradient(to top, rgba(92,132,13,0) 0%,rgba(145,206,23,.7) 100%);
+  background: linear-gradient(to top, rgba(92,132,13,0) 0%,rgba(23, 206, 185, 0.7) 100%);
 }
 a.btn.btn-success:hover:after {
   content: "";
@@ -230,13 +231,14 @@ a.btn.btn-success:hover:after {
     font-weight: 100;
 }
 .modal-content .form-control {
-	color: #F1F1F1;
-	background-color: #3D434C;
-	border: 1px solid #555663;
+	color: #31708f;
+	background-color: #fff;
+	border: 1px solid #ddd;
 }
 .modal-content .form-control:focus {
-	box-shadow: none;
-    border-color: #ddd;
+    border-color: #54d2d2;
+	-webkit-box-shadow: inset 0 1px 1px rgba(94, 220, 220, .6);
+    box-shadow: inset 0 1px 1px rgba(94, 220, 220, .6);
 }
 /* OUR TEAM */
 .developers {
