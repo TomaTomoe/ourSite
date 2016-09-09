@@ -8,44 +8,66 @@ body {
 /* TOP-MENU */
 .navbar {
   border-radius: 0;
-  
+
 }
 .navbar-inverse {
-  background-color: #16272c;
-  border-color: #16272c;
+  background-color: #fff;
+  border-color: #ddd;
 }
 .navbar-inverse.overscroll {
   background-color: rgba(22, 39, 44, 0.8);
   border-color: rgba(22, 39, 44, 0.85);
 }
 .navbar-inverse .navbar-brand {
-  color: #7bb702;
+  height: auto;
+}
+.navbar-brand > img {
+  height: 20px;
+  margin: 10px 0;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #8B969C;
+  color: #000;
   text-align: center;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #e6f2ee;
+  color: #000;
   background-color: transparent;
+  border-bottom: 1px solid;
 }
 .navbar-inverse.overscroll .navbar-collapse {
   border-color: rgba(22, 39, 44, 0.85);
 }
-.navbar, .navbar-brand {
-
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #000;
+  border-bottom: 1px solid;
 }
-.navbar-nav > li > a, .navbar-brand {
-  line-height: 70px;
-  text-transform: uppercase;
+.navbar-nav > li > a {
+  line-height: 30px;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 20px 10px 19px 10px;
+}
+.navbar-inverse .navbar-nav > li > #one,
+.navbar-inverse .navbar-nav > li > #five {
+  border-color: #21a8e7;
+}
+.navbar-inverse .navbar-nav > li > #two,
+.navbar-inverse .navbar-nav > li > #six {
+  border-color: #8d30a7;
+}
+.navbar-inverse .navbar-nav > li > #three {
+  border-color: #489186;
+}
+.navbar-inverse .navbar-nav > li > #four {
+  border-color: #e72566;
 }
 .navbar-fixed-top {
-  
+
 }
 /* CAROUSEL */
 .carousel {
-  padding-top: 100px;
-  background: #000;
+  padding-top: 71px;
+  background: #2a2d7f;
 }
 .carousel-slide {
   width: 100%;
@@ -61,24 +83,22 @@ body {
 }
 .main_words {
   color: #fff;
-  font-family: 'Amiri', serif;
-  font-size: 50px;
-  letter-spacing: 0.06em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5em;
+  letter-spacing: 0.08em;
   max-width: 900px;
   margin: auto;
   text-transform: uppercase;
+  font-weight: 100;
+  line-height: 70px;
+  margin-bottom: 50px;
 }
 .italic {
-  font: italic 32px 'Lora', Georgia, serif;
-  font-weight: bold;
   text-transform: none;
+  font-size: 0.9em;
 }
-.sub_main {
-  text-align: center;
-  font: 20px/45px 'Open Sans', sans-serif;
-  color: #fff;
-  font-weight: 100;
-  margin-bottom: 50px;
+.btn-lg, .btn-group-lg > .btn {
+  padding: 8px 24px;
 }
 .left-btn {
   text-align: right;
@@ -89,15 +109,15 @@ body {
 #slogan .btn.btn-default,
 #slogan .btn.btn-default.pseudo-act:hover,
 #slogan .btn.btn-default.pseudo-act:active {
-  border: 2px solid #9aba36;
-  border-radius: 0;
-  color: #9aba36;
-  font-size: 16px;
-  position: relative;
-  text-transform: uppercase;
-  background: transparent;
-  font-weight: 500;
-  z-index: 0;
+  border: 2px solid #21a8e7;
+border-radius: 0;
+color: #21a8e7;
+font-size: 16px;
+position: relative;
+text-transform: uppercase;
+background: transparent;
+font-weight: 500;
+z-index: 0;
 }
 #slogan .btn.btn-default::after,
 #slogan .btn.btn-default.pseudo-act:hover::after,
@@ -112,12 +132,12 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: #9aba36;
+  background: #21a8e7;
 }
 #slogan .btn.btn-default:hover,
 #slogan .btn.btn-default:active,
 #slogan .btn.btn-default.pseudo-act {
-  border: 2px solid #9aba36;
+  border: 2px solid #21a8e7;
   color: #fff;
   -webkit-transition: background .2s; /* Safari 3.1 to 6.0 */
   transition: background .2s;
@@ -136,7 +156,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: #9aba36;
+  background: #21a8e7;
 }
 /* MODAL */
 .modal-content {
@@ -222,7 +242,7 @@ a.btn.btn-success:hover:after {
   /*background:
     linear-gradient(135deg, #bddbdb 2px, #C4DEDE 2px, #C4DEDE 3px, transparent 3px, transparent 8px, #C4DEDE 8px, #C4DEDE 9px, transparent 9px),
     linear-gradient(225deg, #bddbdb 2px, #C4DEDE 2px, #C4DEDE 3px, transparent 3px, transparent 8px, #C4DEDE 8px, #C4DEDE 9px, transparent 9px)0 8px;*/
-  background-color:#bddbdb;
+  background-color:#fff;
   background-size: 8px 16px;
   height: 500px;
 }
