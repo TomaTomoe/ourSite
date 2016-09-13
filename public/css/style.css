@@ -329,3 +329,27 @@ a.btn.btn-success:hover:after {
   background-position-y: 12px;
   border-color: #21a8e7;
 }
+.icon-color.violet-icon {
+  background-image: url(../img/light-bulb.svg);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position-x: 12px;
+  background-position-y: 12px;
+  border-color: #8d30a7;
+}
+.icon-color.green-icon {
+  background-image: url(../img/gift.svg);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position-x: 12px;
+  background-position-y: 12px;
+  border-color: #489186;
+}
+.icon-color.pink-icon {
+  background-image: url(../img/customer-service.svg);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position-x: 12px;
+  background-position-y: 12px;
+  border-color: #e72566;
+}
