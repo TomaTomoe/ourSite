@@ -5,6 +5,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+* {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05em;
+}
 /* TOP-MENU */
 .navbar {
   border-radius: 0;
@@ -244,7 +248,17 @@ a.btn.btn-success:hover:after {
     linear-gradient(225deg, #bddbdb 2px, #C4DEDE 2px, #C4DEDE 3px, transparent 3px, transparent 8px, #C4DEDE 8px, #C4DEDE 9px, transparent 9px)0 8px;*/
   background-color:#fff;
   background-size: 8px 16px;
-  height: 500px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.projects {
+  height: auto;
+  background: #736087; /* Old browsers */
+  background: -moz-radial-gradient(30% 10%, ellipse farthest-corner,  #c08f94 0%, #464472 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(30% 10%, ellipse farthest-corner,  #c08f94 0%,#464472 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse farthest-corner at 30% 10%,  #c08f94 0%,#464472 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c08f94', endColorstr='#464472',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .modal-content label {
     font-size: 16px;
@@ -262,8 +276,29 @@ a.btn.btn-success:hover:after {
 }
 /* OUR TEAM */
 .developers {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
+  margin: auto;
+}
+#developer-1 {
+  background-image: url(../img/developer-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#developer-2 {
+  background-image: url(../img/developer-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#developer-3 {
+  background-image: url(../img/developer-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#developer-4 {
+  background-image: url(../img/developer-4.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .team-member {
   text-align: center;
@@ -329,6 +364,9 @@ a.btn.btn-success:hover:after {
   background-position-y: 12px;
   border-color: #21a8e7;
 }
+.blue-text h4 {
+  color: #21a8e7;
+}
 .icon-color.violet-icon {
   background-image: url(../img/light-bulb.svg);
   background-size: 50px 50px;
@@ -336,6 +374,9 @@ a.btn.btn-success:hover:after {
   background-position-x: 12px;
   background-position-y: 12px;
   border-color: #8d30a7;
+}
+.violet-text h4 {
+  color: #8d30a7;
 }
 .icon-color.green-icon {
   background-image: url(../img/gift.svg);
@@ -345,6 +386,9 @@ a.btn.btn-success:hover:after {
   background-position-y: 12px;
   border-color: #489186;
 }
+.green-text h4 {
+  color: #489186;
+}
 .icon-color.pink-icon {
   background-image: url(../img/customer-service.svg);
   background-size: 50px 50px;
@@ -352,4 +396,256 @@ a.btn.btn-success:hover:after {
   background-position-x: 12px;
   background-position-y: 12px;
   border-color: #e72566;
+}
+.pink-text h4 {
+  color: #e72566;
+}
+.how-work p {
+ text-align: center;
+ padding: 0 30px;
+}
+.header {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding: 15px 0;
+}
+.chapters-name.header {
+    font-weight: 100;
+    margin-top: 35px;
+}
+.projects .chapters-name.header,
+.technologies .chapters-name.header {
+    color: #fff;
+  }
+img.preview {
+    height: 150px;
+}
+.owl-item > div{
+  text-align: center;
+}
+div#owl-projects, div#owl-technologies {
+    padding-bottom: 10px;
+}
+#owl-projects h4.header {
+    color: #21a8e7;
+}
+#owl-projects p {
+    color: #fff;
+    font-weight: 100;
+    padding: 0 35px 20px;
+}
+.projects .btn.btn-default:hover, .projects .btn.btn-default:active {
+    border: 2px solid #fff;
+    color: #7c6581;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+    position: relative;
+    background: transparent;
+    z-index: 0;
+    font-weight: 300;
+}
+.projects .btn.btn-default {
+    border: 2px solid #fff;
+    border-radius: 0;
+    padding: 5px 18px;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    text-transform: uppercase;
+    background: transparent;
+    font-weight: 100;
+    z-index: 0;
+}
+.projects .btn.btn-default::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+.projects .btn.btn-default:hover::after, .projects .btn.btn-default:active::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+.hidensee {
+  display: none;
+  position: absolute;
+  top: 0;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: rgba(140, 99, 129, 0.8);
+  color: #fff;
+}
+.team-member:hover .hidensee {
+  display: block;
+}
+.hidensee h4 {
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+.hidensee p {
+    padding: 20px;
+    height: 110px;
+    font-weight: 100;
+}
+.hidensee a {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.technologies {
+    background: #abafb5;
+}
+#owl-technologies img {
+    height: 110px;
+}
+.price-card {
+    width: 260px;
+    border: 1px solid;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    height: 370px;
+    position: relative;
+}
+.price-card h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+.price-card.card-1 {
+    border-color: #8d30a7;
+    color: #8d30a7;
+    margin-right: 0;
+}
+.price-card.card-2 {
+    border-color: #489186;
+    color: #489186;
+}
+.price-card.card-3 {
+    border-color: #e72566;
+    color: #e72566;
+    margin-left: 0;
+}
+.prices {
+  margin-bottom: 50px;
+}
+p.cost {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+p.cost small {
+    font-size: 20px;
+}
+.prices .btn.btn-default:hover, .prices .btn.btn-default:active {
+    border: 2px solid;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+    position: relative;
+    background: transparent;
+    z-index: 0;
+    font-weight: 300;
+}
+.prices .card-1 .btn.btn-default:hover, .prices .card-1 .btn.btn-default:active {
+  border-color: #8d30a7;
+  color: #fff;
+}
+.prices .card-2 .btn.btn-default:hover, .prices .card-2 .btn.btn-default:active {
+  border-color: #489186;
+  color: #fff;
+}
+.prices .card-3 .btn.btn-default:hover, .prices .card-3 .btn.btn-default:active {
+  border-color: #e72566;
+  color: #fff;
+}
+.prices .btn.btn-default {
+    border: 2px solid;
+    border-radius: 0;
+    padding: 5px 18px;
+    font-size: 12px;
+    position: relative;
+    text-transform: uppercase;
+    background: transparent;
+    font-weight: 100;
+    z-index: 0;
+}
+.prices .card-1 .btn.btn-default {
+  border-color: #8d30a7;
+  color: #8d30a7;
+}
+.prices .card-2 .btn.btn-default {
+  border-color: #489186;
+  color: #489186;
+}
+.prices .card-3 .btn.btn-default {
+  border-color: #e72566;
+  color: #e72566;
+}
+.prices .btn.btn-default::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.prices .card-1 .btn.btn-default::after {
+    background: #8d30a7;
+}
+.prices .card-2 .btn.btn-default::after {
+    background: #489186;
+}
+.prices .card-3 .btn.btn-default::after {
+    background: #e72566;
+}
+.prices .btn.btn-default:hover::after, .prices .btn.btn-default:active::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.prices .card-1 .btn.btn-default:hover::after, .prices .card-1 .btn.btn-default:active::after {
+  background: #8d30a7;
+}
+.prices .card-2 .btn.btn-default:hover::after, .prices .card-2 .btn.btn-default:active::after {
+  background: #489186;
+}
+.prices .card-3 .btn.btn-default:hover::after, .prices .card-3 .btn.btn-default:active::after {
+  background: #e72566;
+}
+.prise-order-block {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 30px;
 }

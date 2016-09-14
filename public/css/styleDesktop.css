@@ -30,30 +30,24 @@
   top:280px;
 }
 /* OUR TEAM */
-.our_team,
-.prices {
-  padding: 50px 0 70px 0;
-}
-.our_team h2,
-.prices h2 {
+.our_team h2 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
 .team-member p {
-  width: 300px;
   margin: auto;
 }
 .our_team .row {
   margin: auto;
-  width: 1100px;
-  height: 900px;
+  width: 945px;
   background:
-    linear-gradient(45deg, transparent 0%, transparent 49.92%, #bddbdb 49.92%, #bddbdb 50.08%, transparent 50.08%, transparent 100%),
-    linear-gradient(-45deg, transparent 0%, transparent 49.92%, #bddbdb 49.92%, #bddbdb 50.08%, transparent 50.08%, transparent 100%);
+    linear-gradient(45deg, transparent 0%, transparent 49.92%, #c3c3c3 49.92%, #c3c3c3 50.08%, transparent 50.08%, transparent 100%),
+    linear-gradient(-45deg, transparent 0%, transparent 49.92%, #c3c3c3 49.92%, #c3c3c3 50.08%, transparent 50.08%, transparent 100%);
   background-position: center;
   background-size: 600px 600px;
   background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
 /* HOW WE WORK */
